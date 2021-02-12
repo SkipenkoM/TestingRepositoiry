@@ -11,7 +11,9 @@ public class Class{
     	ArrayList<Vehicle> vehicles = new ArrayList<Vehicle>();
     
     	int f = 3;
-
+    	int F1 = 3;
+    	int f2 = 3;
+    	
     	// Δερεπεΰλ³ηΰφ³ÿ
     	try(ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filename))){
     		vehicles=((ArrayList<Vehicle>)ois.readObject());
